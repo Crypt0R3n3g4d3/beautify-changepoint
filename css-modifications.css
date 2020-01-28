@@ -1,25 +1,70 @@
 
+#divApp {
+	display: flex;
+}
 
-/* General Tab */
-#bodyBrowserUI #menuWrap #lnkMPERSONAL {
+#menuWrap {
+	display: flex;
+}
+
+#directory {
+	align-items: center;
+    justify-content: left;
+    display: flex;
+}
+
+/* DropDown Link Container on hover*/
+#directory li:hover {
+	background-color: transparent;
+}
+
+/* General DropDown Link */
+#lnkMPERSONAL,
+#lnkMSUPPORT,
+#lnkMCOGNOS {
+	margin: 20px;
 	color: green;
 }
 
-
-
-
-
-
-#divMPERSONAL {
-	top: 78px;
-	left: 45px;
+#lnkMPERSONAL[data-toggle-dropdown=false] {
+	/*background-color: blue;*/
 }
 
+/* General DropDown Menus*/
+#divMPERSONAL {
+	width: 170px;
+	top: 100px;
+	left: 60px;
+}
 
+#divMSUPPORT {
+	width: 170px;
+	top: 100px;
+	left: 195px;
+}
 
+#divMCOGNOS {
+	width: 170px;
+	top: 100px;
+	left: 338px;
+}
 
+/* Dropdown Items */
+#divMPERSONAL ul li,
+#divMSUPPORT ul li,
+#divMCOGNOS ul li {
+	flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
 
-
+/* Dropdown Items */
+#divMPERSONAL ul,
+#divMSUPPORT ul,
+#divMCOGNOS ul {
+	width: 100%;
+}
 
 
 
