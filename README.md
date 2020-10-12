@@ -12,10 +12,10 @@ Lets make Changepoint Look and Behave like a modern application. A few tweeks co
 # How to Run and Test
 
 * Use the [User Javascript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld?hl=en) chrome extension.
-* Go to Settings -> Libraries 
+* Go to Settings -> Libraries
 * Add fontawesome CDN. You can use your own or just use https://kit.fontawesome.com/f1464dc054.js. Name it **fontawesome**
 * Make a site for https://cppsa.tylertech.com/
-* Add CSS and JS to the appropiate locations and Save
+* Add CSS and JS to the appropriate locations and Save
 * Go to Options and check: **Highest CSS priority** and **fontawesome**
 * Then visit https://cppsa.tylertech.com/ and the styles should be applied.
-*  Then just hack away
+* Then just hack away
